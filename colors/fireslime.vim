@@ -13,11 +13,11 @@ let g:colors_name = "fireslime"
 set termguicolors
 
 " Define reusable colorvariables.
-let s:bg="#350e01"
 let s:fg="#ccbb59"
 let s:fg2="#b2a34e"
 let s:fg3="#564b0b"
 let s:fg4="#4e440a"
+let s:bg="#350e01"
 let s:bg2="#452115"
 let s:bg3="#55352a"
 let s:bg4="#65483e"

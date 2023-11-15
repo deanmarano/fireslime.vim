@@ -111,6 +111,8 @@ exe 'hi htmlSpecialTagName guifg='s:keyword
 " Markdown Highlighting
 exe 'hi mkdCode guifg='s:builtin
 
-exe 'hi Search guibg='s:fg2' guifg='s:bg' gui=underline'
-exe 'hi TabLine guibg='s:bg4''
+exe 'hi Search guibg='s:fg2' guifg='s:bg''
+exe 'hi TabLine guibg='s:bg4' guifg='s:fg2' cterm=none gui=none'
+exe 'hi TabLineSel guifg='s:fg' cterm=bold gui=underline'
 exe 'hi TabLineFill guifg='s:bg4''
+exe 'hi SignColumn guibg='s:bg''
